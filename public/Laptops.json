@@ -1,0 +1,73 @@
+[
+    {
+      "device_name": "Dell XPS 15",
+      "id": "LAP001",
+      "photo": "https://example.com/dell-xps-15.jpg",
+      "details": "15.6-inch 4K display, Intel Core i7, 16GB RAM, 512GB SSD",
+      "price": 1800
+    },
+    {
+      "device_name": "HP Spectre x360",
+      "id": "LAP002",
+      "photo": "https://example.com/hp-spectre-x360.jpg",
+      "details": "13.3-inch OLED display, Intel Core i7, 16GB RAM, 1TB SSD",
+      "price": 1600
+    },
+    {
+      "device_name": "Asus ROG Zephyrus G15",
+      "id": "LAP003",
+      "photo": "https://example.com/asus-rog-g15.jpg",
+      "details": "15.6-inch 165Hz QHD, Ryzen 9, RTX 3070, 1TB SSD",
+      "price": 2000
+    },
+    {
+      "device_name": "Lenovo Legion 5",
+      "id": "LAP004",
+      "photo": "https://example.com/lenovo-legion-5.jpg",
+      "details": "15.6-inch FHD, Ryzen 7, RTX 3060, 512GB SSD",
+      "price": 1400
+    },
+    {
+      "device_name": "Acer Predator Helios 300",
+      "id": "LAP005",
+      "photo": "https://example.com/predator-helios-300.jpg",
+      "details": "15.6-inch 144Hz, Intel i7, RTX 3060, 16GB RAM",
+      "price": 1700
+    },
+    {
+      "device_name": "MSI Stealth 15M",
+      "id": "LAP006",
+      "photo": "https://example.com/msi-stealth-15m.jpg",
+      "details": "15.6-inch 144Hz, Intel i7, RTX 3060, 512GB SSD",
+      "price": 1600
+    },
+    {
+      "device_name": "Razer Blade 14",
+      "id": "LAP007",
+      "photo": "https://example.com/razer-blade-14.jpg",
+      "details": "14-inch QHD 165Hz, Ryzen 9, RTX 3070 Ti, 16GB RAM",
+      "price": 2400
+    },
+    {
+      "device_name": "LG Gram 17",
+      "id": "LAP008",
+      "photo": "https://example.com/lg-gram-17.jpg",
+      "details": "17-inch WQXGA, Intel i7, 16GB RAM, 1TB SSD",
+      "price": 1500
+    },
+    {
+      "device_name": "Samsung Galaxy Book 3 Pro",
+      "id": "LAP009",
+      "photo": "https://example.com/galaxy-book-3.jpg",
+      "details": "16-inch AMOLED, Intel i7, 16GB RAM, 512GB SSD",
+      "price": 1900
+    },
+    {
+      "device_name": "Microsoft Surface Laptop 5",
+      "id": "LAP010",
+      "photo": "https://example.com/surface-laptop-5.jpg",
+      "details": "13.5-inch PixelSense, Intel i7, 16GB RAM, 512GB SSD",
+      "price": 1300
+    }
+  ]
+  

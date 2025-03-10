@@ -1,0 +1,73 @@
+[
+    {
+      "device_name": "Samsung Galaxy S24",
+      "id": "PHN001",
+      "photo": "https://example.com/galaxy-s24.jpg",
+      "details": "6.2-inch Dynamic AMOLED, Snapdragon 8 Gen 2, 256GB Storage",
+      "price": 1000
+    },
+    {
+      "device_name": "Google Pixel 8 Pro",
+      "id": "PHN002",
+      "photo": "https://example.com/pixel-8-pro.jpg",
+      "details": "6.7-inch OLED, Google Tensor G3, 12GB RAM, 512GB Storage",
+      "price": 1200
+    },
+    {
+      "device_name": "OnePlus 12",
+      "id": "PHN003",
+      "photo": "https://example.com/oneplus-12.jpg",
+      "details": "6.8-inch AMOLED, Snapdragon 8 Gen 3, 16GB RAM, 512GB Storage",
+      "price": 1100
+    },
+    {
+      "device_name": "Xiaomi 14 Ultra",
+      "id": "PHN004",
+      "photo": "https://example.com/xiaomi-14-ultra.jpg",
+      "details": "6.73-inch AMOLED, Snapdragon 8 Gen 3, 16GB RAM, 1TB Storage",
+      "price": 1300
+    },
+    {
+      "device_name": "Asus ROG Phone 8",
+      "id": "PHN005",
+      "photo": "https://example.com/rog-phone-8.jpg",
+      "details": "6.78-inch AMOLED 165Hz, Snapdragon 8 Gen 3, 16GB RAM",
+      "price": 1400
+    },
+    {
+      "device_name": "Realme GT 5 Pro",
+      "id": "PHN006",
+      "photo": "https://example.com/realme-gt5-pro.jpg",
+      "details": "6.7-inch AMOLED, Snapdragon 8 Gen 3, 16GB RAM, 512GB Storage",
+      "price": 900
+    },
+    {
+      "device_name": "Samsung Galaxy Z Fold 5",
+      "id": "PHN007",
+      "photo": "https://example.com/galaxy-z-fold5.jpg",
+      "details": "7.6-inch Foldable AMOLED, Snapdragon 8 Gen 2, 512GB Storage",
+      "price": 2000
+    },
+    {
+      "device_name": "Samsung Galaxy Z Flip 5",
+      "id": "PHN008",
+      "photo": "https://example.com/galaxy-z-flip5.jpg",
+      "details": "6.7-inch Foldable AMOLED, Snapdragon 8 Gen 2, 256GB Storage",
+      "price": 1100
+    },
+    {
+      "device_name": "Motorola Edge 40 Pro",
+      "id": "PHN009",
+      "photo": "https://example.com/moto-edge-40-pro.jpg",
+      "details": "6.67-inch P-OLED, Snapdragon 8 Gen 2, 12GB RAM, 512GB Storage",
+      "price": 950
+    },
+    {
+      "device_name": "Sony Xperia 1 V",
+      "id": "PHN010",
+      "photo": "https://example.com/xperia-1-v.jpg",
+      "details": "6.5-inch 4K OLED, Snapdragon 8 Gen 2, 12GB RAM, 512GB Storage",
+      "price": 1300
+    }
+  ]
+  

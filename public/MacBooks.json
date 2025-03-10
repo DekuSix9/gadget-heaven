@@ -1,0 +1,73 @@
+[
+    {
+      "device_name": "MacBook Air M3",
+      "id": "MAC001",
+      "photo": "https://example.com/macbook-air-m3.jpg",
+      "details": "13.6-inch Liquid Retina, M3 chip, 16GB RAM, 512GB SSD",
+      "price": 1300
+    },
+    {
+      "device_name": "MacBook Pro 14 M3",
+      "id": "MAC002",
+      "photo": "https://example.com/macbook-pro-14-m3.jpg",
+      "details": "14-inch Liquid Retina XDR, M3 Pro chip, 16GB RAM, 1TB SSD",
+      "price": 2000
+    },
+    {
+      "device_name": "MacBook Pro 16 M3",
+      "id": "MAC003",
+      "photo": "https://example.com/macbook-pro-16-m3.jpg",
+      "details": "16-inch Liquid Retina XDR, M3 Pro chip, 32GB RAM, 1TB SSD",
+      "price": 2500
+    },
+    {
+      "device_name": "MacBook Air M2",
+      "id": "MAC004",
+      "photo": "https://example.com/macbook-air-m2.jpg",
+      "details": "13.6-inch Liquid Retina, M2 chip, 8GB RAM, 512GB SSD",
+      "price": 1100
+    },
+    {
+      "device_name": "MacBook Air M1",
+      "id": "MAC005",
+      "photo": "https://example.com/macbook-air-m1.jpg",
+      "details": "13.3-inch Retina, M1 chip, 8GB RAM, 256GB SSD",
+      "price": 1000
+    },
+    {
+      "device_name": "MacBook Pro 14 M2",
+      "id": "MAC006",
+      "photo": "https://example.com/macbook-pro-14-m2.jpg",
+      "details": "14-inch Liquid Retina XDR, M2 Pro, 16GB RAM, 1TB SSD",
+      "price": 1800
+    },
+    {
+      "device_name": "MacBook Pro 16 M2",
+      "id": "MAC007",
+      "photo": "https://example.com/macbook-pro-16-m2.jpg",
+      "details": "16-inch Liquid Retina XDR, M2 Max, 32GB RAM, 1TB SSD",
+      "price": 2800
+    },
+    {
+      "device_name": "MacBook Pro 13 M2",
+      "id": "MAC008",
+      "photo": "https://example.com/macbook-pro-13-m2.jpg",
+      "details": "13-inch Retina, M2 chip, 8GB RAM, 512GB SSD",
+      "price": 1400
+    },
+    {
+      "device_name": "MacBook Pro 15 M3",
+      "id": "MAC009",
+      "photo": "https://example.com/macbook-pro-15-m3.jpg",
+      "details": "15-inch Liquid Retina XDR, M3 Pro, 16GB RAM, 512GB SSD",
+      "price": 2200
+    },
+    {
+      "device_name": "MacBook Pro 16 M1 Max",
+      "id": "MAC010",
+      "photo": "https://example.com/macbook-pro-16-m1-max.jpg",
+      "details": "16-inch Liquid Retina XDR, M1 Max, 32GB RAM, 1TB SSD",
+      "price": 3000
+    }
+  ]
+  

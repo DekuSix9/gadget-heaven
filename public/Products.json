@@ -1,0 +1,73 @@
+[
+    {
+      "device_name": "Dell XPS 15",
+      "id": "LAP001",
+      "photo": "https://example.com/dell-xps-15.jpg",
+      "details": "15.6-inch 4K display, Intel Core i7, 16GB RAM, 512GB SSD",
+      "price": 1800
+    },
+    {
+      "device_name": "HP Spectre x360",
+      "id": "LAP002",
+      "photo": "https://example.com/hp-spectre-x360.jpg",
+      "details": "13.3-inch OLED display, Intel Core i7, 16GB RAM, 1TB SSD",
+      "price": 1600
+    },
+    {
+      "device_name": "Samsung Galaxy S24",
+      "id": "PHN001",
+      "photo": "https://example.com/galaxy-s24.jpg",
+      "details": "6.2-inch Dynamic AMOLED, Snapdragon 8 Gen 2, 256GB Storage",
+      "price": 1000
+    },
+    {
+      "device_name": "Google Pixel 8 Pro",
+      "id": "PHN002",
+      "photo": "https://example.com/pixel-8-pro.jpg",
+      "details": "6.7-inch OLED, Google Tensor G3, 12GB RAM, 512GB Storage",
+      "price": 1200
+    },
+    {
+      "device_name": "Apple Watch Series 9",
+      "id": "SWT001",
+      "photo": "https://example.com/apple-watch-9.jpg",
+      "details": "Always-on Retina display, S9 Chip, Blood Oxygen Sensor",
+      "price": 500
+    },
+    {
+      "device_name": "Samsung Galaxy Watch 6",
+      "id": "SWT002",
+      "photo": "https://example.com/galaxy-watch-6.jpg",
+      "details": "1.5-inch Super AMOLED, Wear OS, ECG monitoring",
+      "price": 400
+    },
+    {
+      "device_name": "MacBook Air M3",
+      "id": "MAC001",
+      "photo": "https://example.com/macbook-air-m3.jpg",
+      "details": "13.6-inch Liquid Retina, M3 chip, 16GB RAM, 512GB SSD",
+      "price": 1300
+    },
+    {
+      "device_name": "MacBook Pro 16 M3",
+      "id": "MAC002",
+      "photo": "https://example.com/macbook-pro-m3.jpg",
+      "details": "16-inch Liquid Retina XDR, M3 Pro chip, 32GB RAM, 1TB SSD",
+      "price": 2500
+    },
+    {
+      "device_name": "iPhone 15 Pro",
+      "id": "IPH001",
+      "photo": "https://example.com/iphone-15-pro.jpg",
+      "details": "6.1-inch Super Retina XDR, A17 Pro chip, 256GB Storage",
+      "price": 1100
+    },
+    {
+      "device_name": "iPhone 15 Pro Max",
+      "id": "IPH002",
+      "photo": "https://example.com/iphone-15-pro-max.jpg",
+      "details": "6.7-inch Super Retina XDR, A17 Pro chip, 512GB Storage",
+      "price": 1300
+    }
+  ]
+  

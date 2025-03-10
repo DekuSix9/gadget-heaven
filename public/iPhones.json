@@ -1,0 +1,38 @@
+[
+    {
+      "device_name": "iPhone 15 Pro",
+      "id": "IPH001",
+      "photo": "https://example.com/iphone-15-pro.jpg",
+      "details": "6.1-inch Super Retina XDR, A17 Pro chip, 256GB Storage",
+      "price": 1100
+    },
+    {
+      "device_name": "iPhone 15 Pro Max",
+      "id": "IPH002",
+      "photo": "https://example.com/iphone-15-pro-max.jpg",
+      "details": "6.7-inch Super Retina XDR, A17 Pro chip, 512GB Storage",
+      "price": 1300
+    },
+    {
+      "device_name": "iPhone 15",
+      "id": "IPH003",
+      "photo": "https://example.com/iphone-15.jpg",
+      "details": "6.1-inch Super Retina XDR, A16 Bionic, 128GB Storage",
+      "price": 900
+    },
+    {
+      "device_name": "iPhone 14 Pro",
+      "id": "IPH004",
+      "photo": "https://example.com/iphone-14-pro.jpg",
+      "details": "6.1-inch ProMotion OLED, A16 Bionic, 256GB Storage",
+      "price": 1000
+    },
+    {
+      "device_name": "iPhone SE (3rd Gen)",
+      "id": "IPH005",
+      "photo": "https://example.com/iphone-se-2022.jpg",
+      "details": "4.7-inch Retina, A15 Bionic, 128GB Storage",
+      "price": 500
+    }
+  ]
+  

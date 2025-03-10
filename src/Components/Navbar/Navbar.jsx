@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="bg-[#9538E2] text-white p-4 max-w-[1400px] mx-auto">
+        <nav className="bg-[#9538E2] text-white p-4 max-w-[1400px] mx-auto mt-5">
             <div className="container mx-auto flex justify-between items-center">
               
                 <h1 className="text-2xl font-bold ">Gadget Heaven</h1>

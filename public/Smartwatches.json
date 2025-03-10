@@ -1,0 +1,73 @@
+[
+    {
+      "device_name": "Apple Watch Series 9",
+      "id": "SWT001",
+      "photo": "https://example.com/apple-watch-9.jpg",
+      "details": "Always-on Retina display, S9 Chip, Blood Oxygen Sensor",
+      "price": 500
+    },
+    {
+      "device_name": "Samsung Galaxy Watch 6",
+      "id": "SWT002",
+      "photo": "https://example.com/galaxy-watch-6.jpg",
+      "details": "1.5-inch Super AMOLED, Wear OS, ECG monitoring",
+      "price": 400
+    },
+    {
+      "device_name": "Garmin Fenix 7",
+      "id": "SWT003",
+      "photo": "https://example.com/garmin-fenix-7.jpg",
+      "details": "1.3-inch MIP display, GPS, Heart Rate Monitor, Solar Charging",
+      "price": 700
+    },
+    {
+      "device_name": "Fitbit Sense 2",
+      "id": "SWT004",
+      "photo": "https://example.com/fitbit-sense-2.jpg",
+      "details": "1.58-inch AMOLED, ECG, Stress Management, Sleep Tracking",
+      "price": 300
+    },
+    {
+      "device_name": "Huawei Watch GT 4",
+      "id": "SWT005",
+      "photo": "https://example.com/huawei-watch-gt4.jpg",
+      "details": "1.43-inch AMOLED, GPS, SpO2, Fitness Tracking",
+      "price": 350
+    },
+    {
+      "device_name": "Amazfit GTR 4",
+      "id": "SWT006",
+      "photo": "https://example.com/amazfit-gtr4.jpg",
+      "details": "1.43-inch AMOLED, GPS, AI Fitness Tracking",
+      "price": 250
+    },
+    {
+      "device_name": "TicWatch Pro 5",
+      "id": "SWT007",
+      "photo": "https://example.com/ticwatch-pro-5.jpg",
+      "details": "Dual-layer Display, Snapdragon W5+, Wear OS, ECG",
+      "price": 450
+    },
+    {
+      "device_name": "Fossil Gen 6",
+      "id": "SWT008",
+      "photo": "https://example.com/fossil-gen-6.jpg",
+      "details": "1.28-inch AMOLED, Wear OS, Alexa Built-in",
+      "price": 300
+    },
+    {
+      "device_name": "Garmin Venu 2",
+      "id": "SWT009",
+      "photo": "https://example.com/garmin-venu-2.jpg",
+      "details": "AMOLED Display, GPS, Health Monitoring",
+      "price": 400
+    },
+    {
+      "device_name": "Polar Grit X Pro",
+      "id": "SWT010",
+      "photo": "https://example.com/polar-grit-x-pro.jpg",
+      "details": "1.2-inch MIP display, GPS, Military-grade Durability",
+      "price": 500
+    }
+  ]
+  

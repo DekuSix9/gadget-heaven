@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const SmartWaatches = () => {
     const [smartWatches,setsmartWatches] = useState([]);
 
     useEffect(()=>{
-          fetch('Products.json')
+          fetch('Smartwatches.json')
           .then(res=>res.json())
           .then(data=>setsmartWatches(data))
     },[])
@@ -30,9 +31,9 @@ const SmartWaatches = () => {
               </div>
               <h2 className="mt-4 text-lg font-semibold">{product.device_name}</h2>
               <p className="text-gray-600">Price: {product.price}</p>
-              <button className="mt-3 bg-purple-500 text-white px-4 py-2 rounded-md hover:bg-purple-600">
+              <Link to={`/smartwatches/${product.id}`} className="mt-3 bg-purple-500 text-white px-4 py-2 rounded-md hover:bg-purple-600">
                 View Details
-              </button>
+              </Link>
             </div>
           ))}
         </div>

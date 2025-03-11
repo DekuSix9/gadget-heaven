@@ -15,6 +15,12 @@ import Iphones from './Components/Iphones/Iphones.jsx';
 import MacBooks from './Components/Macbooks/MacBooks.jsx';
 import SmartWaatches from './Components/SmartWatches/SmartWaatches.jsx';
 import ProductDetail from './Components/ProductsDetails/ProductDetail.jsx';
+import LaptopDetails from './Components/LaptopDetails/LaptopDetails.jsx';
+import PhonesDetails from './Components/PhonesDetails/PhonesDetails.jsx';
+import Error from './Components/Error/Error.jsx';
+import MacbookDetails from './Components/MacbookDetails/MacbookDetails.jsx';
+import SmartwatchDetails from './Components/SmartWatchesDetails/SmartwatchDetails.jsx';
+import IphoneDetails from './Components/IphoneDetails/IphoneDetails.jsx';
   
 const router = createBrowserRouter([
   {
@@ -56,8 +62,55 @@ const router = createBrowserRouter([
               loader:async ()=>{
                            const res= await fetch('Products.json')
                            return res.json()
+              },
+              
+             
+            },
+
+            {
+              path:"/laptops/:id",
+              element:<LaptopDetails></LaptopDetails>,
+              loader:async ()=>{
+                           const res= await fetch('Laptops.json')
+                           return res.json()}
+
+            },
+            {
+              path: "/phones/:id",
+              element: <PhonesDetails></PhonesDetails>,
+              loader: async () => {
+                  const res = await fetch('/Phones.json'); 
+                  return res.json();
               }
-             }
+          },
+          {
+            path: "/macbooks/:id",
+            element:<MacbookDetails></MacbookDetails>,
+            loader: async () => {
+                const res = await fetch('MacBooks.json'); 
+                return res.json();
+            }
+        },
+        {
+          path: "/smartwatches/:id",
+         element:<SmartwatchDetails></SmartwatchDetails>,
+          loader: async () => {
+              const res = await fetch('Smartwatches.json'); 
+              return res.json();
+          }
+      },
+
+         {
+          path: "/iphones/:id",
+        element:<IphoneDetails></IphoneDetails>,
+          loader: async () => {
+              const res = await fetch('iPhones.json'); 
+              return res.json();
+          }
+      },
+          
+            
+             
         ]
 
       },

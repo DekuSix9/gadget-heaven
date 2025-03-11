@@ -18,7 +18,7 @@ const Laptops = () => {
         {laptops.map((product) => (
           <div
             key={product.id}
-            className="border shadow-md rounded-lg p-4 flex flex-col items-center text-center"
+            className=" shadow-lg rounded-lg p-4 flex flex-col items-center text-center"
           >
             <div className="w-full h-32 bg-gray-200 rounded-md flex items-center justify-center">
               <img

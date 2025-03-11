@@ -1,4 +1,6 @@
+
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 
 const AllProducts = () => {
@@ -21,7 +23,7 @@ const AllProducts = () => {
         {allProducts.map((product) => (
           <div
             key={product.id}
-            className="border shadow-md rounded-lg p-4 flex flex-col items-center text-center"
+            className=" shadow-lg rounded-lg p-4 flex flex-col items-center text-center"
           >
             <div className="w-full h-32 bg-gray-200 rounded-md flex items-center justify-center">
               <img
@@ -32,9 +34,9 @@ const AllProducts = () => {
             </div>
             <h2 className="mt-4 text-lg font-semibold">{product.device_name}</h2>
             <p className="text-gray-600">Price: {product.price}</p>
-            <button className="mt-3 bg-purple-500 text-white px-4 py-2 rounded-md hover:bg-purple-600">
+            <Link to={`/${product.id}/${product.device_name}`} className="mt-3 bg-purple-500 text-white px-4 py-2 rounded-md hover:bg-purple-600">
               View Details
-            </button>
+            </Link>
           </div>
         ))}
       </div>

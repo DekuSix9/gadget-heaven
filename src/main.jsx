@@ -14,6 +14,7 @@ import Phones from './Components/Phones/Phones.jsx';
 import Iphones from './Components/Iphones/Iphones.jsx';
 import MacBooks from './Components/Macbooks/MacBooks.jsx';
 import SmartWaatches from './Components/SmartWatches/SmartWaatches.jsx';
+import ProductDetail from './Components/ProductsDetails/ProductDetail.jsx';
   
 const router = createBrowserRouter([
   {
@@ -49,6 +50,14 @@ const router = createBrowserRouter([
               path:'/smartwatches',
               element:<SmartWaatches></SmartWaatches>
              },
+             {
+              path:'/:id/:device_name',
+              element:<ProductDetail></ProductDetail>,
+              loader:async ()=>{
+                           const res= await fetch('Products.json')
+                           return res.json()
+              }
+             }
         ]
 
       },

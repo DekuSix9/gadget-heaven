@@ -25,6 +25,7 @@ const Banner = () => {
                     className="w-full md:w-[950px] lg:w-[950px] mx-auto h-auto max-w-none md:relative md:bottom-32 rounded-2xl"
                 />
             </div>
+            <div className=" flex justify-center items-center text-4xl font-bold mb-5"><h1>Explore Cutting-Edge Gadgets</h1></div>
         </div>
     );
 };

@@ -57,7 +57,7 @@ const router = createBrowserRouter([
               element:<SmartWaatches></SmartWaatches>
              },
              {
-              path:'/:id/:device_name',
+              path:'/:id',
               element:<ProductDetail></ProductDetail>,
               loader:async ()=>{
                            const res= await fetch('Products.json')
@@ -120,7 +120,11 @@ const router = createBrowserRouter([
       },
       {
         path:"/dashboard",
-        element:<Dashboard></Dashboard>
+        element:<Dashboard></Dashboard>,
+        loader:async()=>{
+          const res= await fetch('Products.json')
+          return res.json();
+        }
       }
     ]
   },

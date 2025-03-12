@@ -6,7 +6,7 @@ const Laptops = () => {
      const [laptops,setlaptops] = useState([]);
     
       useEffect(()=>{
-            fetch('Products.json')
+            fetch('Laptops.json')
             .then(res=>res.json())
             .then(data=>setlaptops(data))
       },[])

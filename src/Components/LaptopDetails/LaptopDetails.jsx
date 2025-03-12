@@ -6,6 +6,8 @@ const LaptopDetails = () => {
     const data=useLoaderData();
     const laptop=data.find(laptop=>laptop.id===id);
     const { device_name, photo, details, price } = laptop;
+
+    
     return (
         <div className="bg-white shadow-md rounded-lg overflow-hidden max-w-3xl mx-auto p-6 flex flex-col md:flex-row gap-6">
         <div className="w-full md:w-1/3">

@@ -1,20 +1,21 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { setStoredProduct } from "../Utility/Utility";
 
 const ProductDetail = () => {
     const { id } = useParams();  
     const data = useLoaderData();
 
-    if (!data || data.length === 0) {
-        return <p className="text-center text-red-500">No products available</p>;
-    }
+   
 
     const product = data.find(product => product.id === id);  
 
-    if (!product) {
-        return <p className="text-center text-red-500">Product not found</p>;
-    }
+   
 
     const { device_name, photo, details, price } = product;
+
+    const handleAddtoCart = (id) => {
+        setStoredProduct(id);
+    };
 
     return (
         <div className="bg-white shadow-md rounded-lg overflow-hidden max-w-3xl mx-auto p-6 flex flex-col md:flex-row gap-6">
@@ -26,7 +27,7 @@ const ProductDetail = () => {
                 <p className="text-lg text-gray-700 mt-1 font-semibold">Price: ${price}</p>
                 <p className="mt-4 text-gray-600">{details}</p>
                 <div className="mt-6">
-                    <button className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition">Add to Cart</button>
+                    <button onClick={() => handleAddtoCart(id)} className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition">Add to Cart</button>
                 </div>
             </div>
         </div>
